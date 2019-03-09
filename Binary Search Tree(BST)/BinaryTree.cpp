@@ -87,7 +87,7 @@ bool SearchBST(node* root,int value) // this function for search value from tree
     else return SearchBST(root->right,value);
 }
 
-void InorderShow(node* root){
+void InorderShow(node* root){ // This function are use for show the tree data Inorderly
     if(root != NULL)
     {
         InorderShow(root->left);
@@ -96,7 +96,7 @@ void InorderShow(node* root){
     }
 }
 
-void PreorderShow(node* root)
+void PreorderShow(node* root) // This function are use for show the tree data Preorderly
 {
     if(root != NULL)
     {
@@ -106,7 +106,7 @@ void PreorderShow(node* root)
     }
 }
 
-void PostorderShow(node* root)
+void PostorderShow(node* root) // This function are use for show the tree data Postorderly
 {
     if(root != NULL)
     {
